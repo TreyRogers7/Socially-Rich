@@ -1,5 +1,6 @@
 const express = require('express');
 const db = require ('./config/connections.js');
+const routes = require('./routes');
 
 const cwd = process.cwd();
 
@@ -12,6 +13,7 @@ const activity = cwd.includes('Socially-Rich')
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(routes);
 
 db.once('open', () => {
     app.listen(PORT, () => {
