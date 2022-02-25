@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "socially-rich",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TreyRogers7/Socially-Rich.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TreyRogers7/Socially-Rich/issues"
+  },
+  "homepage": "https://github.com/TreyRogers7/Socially-Rich#readme"
+}
